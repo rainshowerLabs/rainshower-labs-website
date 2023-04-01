@@ -1,26 +1,24 @@
 <svelte:head>
-	<title>About</title>
+	<title>About us</title>
 	<meta name="description" content="About this app" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>About us</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		<i>Rainshower Labs</i> is dedicated to creating innovative DeFi protocols and primitives that promote trustless-ness. Our flagship product, <b><i>Rainshower</i></b>, is an undercollateralized lending protocol that allows users to access loans with high flexibility and capital efficency. We believe in the core principles of crypto, and we're dedicated to building secure and reliable protocols that empower users.
 	</p>
+	
+	<h1>What we're working on</h1>
 
-	<pre>npm create svelte@latest</pre>
+	<li>
+		<ul><b><u>Rainshower</u> - </b>Completely trustless undercollateralized borrows. Designed with flexibility and capital efficiency in mind. Borrow for any purpose, create financial instruments on top.</ul>
+	</li>
+
+	<h1>Contact</h1>
 
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		If you have any inquiries, please <a href="mailto:vukasin@gostovic.me">email us</a>. Alternatively, <a href="https://twitter.com/RainshowerLabs">DM our official Twitter account</a>. We read every message and will try to respond ASAP!
 	</p>
 </div>

@@ -1,8 +1,8 @@
 <script>
-	import Counter from './Counter.svelte';
-	import welcome from '$lib/images/svelte-welcome.webp';
+	import logo from '$lib/images/logo.png';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
+
 
 <svelte:head>
 	<title>Home</title>
@@ -11,21 +11,22 @@
 
 <section>
 	<h1>
-		<span class="welcome">
+		<span class="logo">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				<source srcset={logo} type="image/webp" />
+				<img src={welcome_fallback} alt="Rainshower Labs" />
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
+		We build revolutionary DeFi protocols
 	</h1>
 
 	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
+		Rainsower labs is focused on delivering novel, decentralized protocols and financial instruments.
 	</h2>
-
-	<Counter />
+	<h2>
+		We pride ourselves in building trustless, innovative financial primitives with a wide array of use cases.
+	</h2>
 </section>
 
 <style>
@@ -39,9 +40,10 @@
 
 	h1 {
 		width: 100%;
+		color: black;
 	}
 
-	.welcome {
+	.logo {
 		display: block;
 		position: relative;
 		width: 100%;
@@ -49,10 +51,10 @@
 		padding: 0 0 calc(100% * 495 / 2048) 0;
 	}
 
-	.welcome img {
+	.logo img {
 		position: absolute;
 		width: 100%;
-		height: 100%;
+		height: 50%;
 		top: 0;
 		display: block;
 	}
