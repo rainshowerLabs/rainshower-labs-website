@@ -11,7 +11,11 @@
 	</main>
 
 	<footer>
-		<p><a href="https://twitter.com/RainshowerLabs">Twitter</a></p>
+		<p>
+			<a href="https://twitter.com/RainshowerLabs">Twitter</a>
+			<a href="https://github.com/rainshowerLabs">Github</a>
+			<a href="mailto:vukasin@gostovic.me">Contact</a>
+		</p>
 	</footer>
 </div>
 
@@ -44,6 +48,7 @@
 	footer a {
 		font-weight: bold;
 		color: gray;
+		margin-right: 15px;
 
 	}
 

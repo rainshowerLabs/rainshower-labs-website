@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Rainshower Labs website" />
 </svelte:head>
 
 <section>
@@ -18,14 +18,11 @@
 			</picture>
 		</span>
 
-		We build revolutionary DeFi protocols
+		Building the next evolution of DeFi
 	</h1>
 
 	<h2>
-		Rainsower labs is focused on delivering novel, decentralized protocols and financial instruments.
-	</h2>
-	<h2>
-		We pride ourselves in building trustless, innovative financial primitives with a wide array of use cases.
+		Rainshower labs is focused on building the next evolution of DeFi, and tools that will make that happen.
 	</h2>
 </section>
 
