@@ -18,7 +18,7 @@
 			</picture>
 		</span>
 
-		Building the next evolution of DeFi
+		Building what's next.
 	</h1>
 
 	<h2>
