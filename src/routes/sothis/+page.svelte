@@ -14,22 +14,29 @@
 		<img style="width: 100%;" src={Blutgang} alt="Blutgang logo">
 	</p>
 	
-	<h1>Blutgang - the wd40 of alpha ethereum load balancers</h1>
+	<h1>Sothis</h1>
 
 	<p>
-		Blutgang is a <i>blazing fast</i>, caching, minimalist load balancer designed with Ethereum's json-rpc in mind.<br><br>
+		Sothis is a tool for replaying historical state on a local ***anvil/hardhat*** testnet node. 
 
-		Blutgang's industry leading advantage, lies in the speed of its cache. Historical RPC queries are cached in a local database, bypassing the need for slow, repeating calls to your nodes.
-	</p>
+		Sothis has the following modes:
+		<ul>
+			<li>Live</li>
+			<li>Historic</li>
+			<li>Track</li>
+			<li>Fast track</li>
+			<li>Call track</li>
+		</ul>
 	<h1>Load Balancing</h1>
 		<p>
 			Blutgang is designed to be used in front of a cluster of Ethereum RPC nodes, distributing the load between them. By default, the load is balanced in a weighted round-robin configuration. Thanks to its modularity, the load balancing algorithm can be customized to support any load balancing schema.
 		</p>
-	<h1>Benchmarks</h1>
+
+	<h1>Installation</h1>
 		<p>
-			<img style="width: 100%;" src={bench0} alt="Benchmarks">
-			<img style="width: 100%;" src={bench1} alt="Benchmarks">
-		</p>
+			Sothis is a rust crate. You can install it with cargo:
+			<pre>cargo install sothis</pre>
+
 	<h1>Commercial licensing</h1>
 	<p>
 		Blutgang is libre software licensed under the AGPL-3.0 license. In practice, this means that if you use blutgang for non-personal use, <b>you are required by law to disclose the source code of blutgang, or any works based on or that use the licensed software in any way.</b> This includes MEV bots. Blutgang respects the freedom of it's users and will *always* be free for non-commercial use.   
