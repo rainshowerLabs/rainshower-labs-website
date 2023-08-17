@@ -14,6 +14,7 @@
 		<p>
 			<a href="https://twitter.com/RainshowerLabs">Twitter</a>
 			<a href="https://github.com/rainshowerLabs">Github</a>
+			<a href="https://discord.gg/92TfQWdjEh">Discord</a>
 			<a href="mailto:vukasin@gostovic.me">Contact</a>
 		</p>
 	</footer>
